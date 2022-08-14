@@ -7,7 +7,8 @@ For example, if a user likes "Spider Man", we can recommend "Tom Holland" movies
 
 Firstly, the user's preferences, the user's interest, the user's personal information, such as the age, or sometimes the history of the user. This data is represented by the user vector. Secondly, the product-related information is called the item vector. The element vector contains the properties(features) of product which is movies in the system, then this can be used by to calculate the similarity between them. The recommendations of movies are calculated using cosine similarity. If 'A' is the user vector and 'B' is an element vector, the cosine similarity.
 
-#PROBLEM STATEMENT Many other apps, like Netflix, are all about connecting users to the movies they enjoy. It is therefore necessary to supply users with what they require. As a result, it is vital to understand what the user requires, which can be accomplished through recommendation algorithms. This improves the user experience.
+# PROBLEM STATEMENT: - 
+Many other apps, like Netflix, are all about connecting users to the movies they enjoy. It is therefore necessary to supply users with what they require. As a result, it is vital to understand what the user requires, which can be accomplished through recommendation algorithms. This improves the user experience.
 
 Recommender Systems for Films: This section focuses on creating different types of recommendation engines, such as the Simple Generic Recommender, Content Based Filter, and User Based Collaborative Filter. The systems' performance is assessed in both qualitative and quantitative terms.
 
@@ -15,8 +16,8 @@ Also, the reason to choose python to build the recommender system is that python
 
 Imagine a scenario where a person wants to enjoy their weekend by watching a suitable movie but often ends up endlessly scrolling in an attempt to find something to watch. They would already have certain preferences and he/she can use this recommender to watch any movie which is something relatable. It would save both the person and the entertainment providers a lot of hassle if the person input the movie which they want to see in an attempt to get recommendations and saved time for the customer.
 
-#DATA COLLECTION In this recommendation system, two datasets of Tmdb_5000_movies & Tmdb_5000_credits have been used which we can find on Kaggle.
-
+# DATA COLLECTION 
+In this recommendation system, two datasets of Tmdb_5000_movies & Tmdb_5000_credits have been used which we can find on Kaggle.
 Tmdb_5000_movies contain 5000 movie names along with movie, Budget, language, overview, title, popularity, tagline, status (released or not), keywords, genres, production company, name of the directors etc.
 Tmdb_5000_credits contain movie_id, cast, crew.
 #DATA PREPROCESSING Data preprocessing, a component of information preparation, describes any form of processing performed on data to prepare it for one more processing procedure. it's traditionally been a very important preliminary step for the info science process. Data preprocessing transforms the info into a format that's more easily and effectively processed in data processing, machine learning and other data science tasks.
@@ -35,10 +36,11 @@ Here is the list of features from the dataset which don't seem to be required wi
 
 Now, we left with the columns ('movie_id','title','overview','genres', 'keywords','cast','crew'). In Python language, "ast" techniques is applied to the genres and keywords columns and access the top 3 cast actor from the cast table and remaining actor was drop. Same goes with the director’s name. We will create a function to get the director name from crew column because there is a lot of crew names in the data as we only want the director name and remove the whitespace from the columns ( Sam Worthington, Sam Johny). Sometimes user enters Sam and the machine get confused that is why removing whitespace and also applied the same function for the director name, movies, caste and keywords columns and splitting each word in overview columns Adding overview, genres, keywords, cast, and crew added into one table --> "Tag" Column table has to be created because of vectorization after merging the content of all data together into one column and removing the columns overview, genres, keywords, cast and crew.
 
-#MODELIING: - Vectorization - Vectorization is a jargon term for a traditional method of turning raw data (text) into vectors of real numbers, which is the format that ML models allow. This approach has been around since the dawn of computing, has proven to be effective in a variety of disciplines, and is currently being applied in NLP. Vectorization is a phase in feature extraction in Machine Learning. By translating text to numerical vectors, the goal is to extract some identifiable features from the text for the model to learn from. In this project, for modelling the dataset, Cosine similarity is used.
+# MODELIING: - 
+Vectorization - Vectorization is a jargon term for a traditional method of turning raw data (text) into vectors of real numbers, which is the format that ML models allow. This approach has been around since the dawn of computing, has proven to be effective in a variety of disciplines, and is currently being applied in NLP. Vectorization is a phase in feature extraction in Machine Learning. By translating text to numerical vectors, the goal is to extract some identifiable features from the text for the model to learn from. In this project, for modelling the dataset, Cosine similarity is used.
 
 #Working and Implementation of Cosine Similarity: - Cosine similarity is a metric for determining how similar documents are regardless of size. It estimates the cosine of the angle formed by two vectors projected in a multi-dimensional space mathematically. Because of the cosine similarity, even if two comparable documents are separated by the Euclidean distance (due to the size of the documents), they are likely to be oriented closer together. This conclude that smaller the angle, cosine similarity will be higher.
 
-#LIMITATIONS
+# LIMITATIONS: -
 
 This system can be improved by combining multiple services and open-source tools to add on some more features like giving recommendations to user by collaborative filtering to get more accurate recommendations. This can also be more user friendly by adding details about the recommended movies which includes crew, movie trailer, Movies (Netflix, Hotstar, HBO etc) link by which the user can directly movie to the platform which is streaming that particular movie.
