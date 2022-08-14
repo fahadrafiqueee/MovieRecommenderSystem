@@ -42,7 +42,27 @@ Now, we left with the columns ('movie_id','title','overview','genres', 'keywords
 # MODELIING: - 
 Vectorization - Vectorization is a jargon term for a traditional method of turning raw data (text) into vectors of real numbers, which is the format that ML models allow. This approach has been around since the dawn of computing, has proven to be effective in a variety of disciplines, and is currently being applied in NLP. Vectorization is a phase in feature extraction in Machine Learning. By translating text to numerical vectors, the goal is to extract some identifiable features from the text for the model to learn from. In this project, for modelling the dataset, Cosine similarity is used.
 
-#Working and Implementation of Cosine Similarity: - Cosine similarity is a metric for determining how similar documents are regardless of size. It estimates the cosine of the angle formed by two vectors projected in a multi-dimensional space mathematically. Because of the cosine similarity, even if two comparable documents are separated by the Euclidean distance (due to the size of the documents), they are likely to be oriented closer together. This conclude that smaller the angle, cosine similarity will be higher.
+# Screenshots: - 
+
+![1 ipg](https://user-images.githubusercontent.com/82112139/184529433-46119771-9d37-430d-b41c-1f411b733215.jpg)
+
+
+![2](https://user-images.githubusercontent.com/82112139/184529436-5610ee71-566c-4823-9906-687f03f65689.jpg)
+
+
+![3](https://user-images.githubusercontent.com/82112139/184529443-8fd71cfd-6e58-45f1-9253-6a13a6cdd091.jpg)
+
+
+![4](https://user-images.githubusercontent.com/82112139/184529445-00cfadb2-ab57-40e4-910f-206555b6ead1.gif)
+
+
+#Working and Implementation of Cosine Similarity: -
+Cosine similarity is a metric for determining how similar documents are regardless of size. It estimates the cosine of the angle formed by two vectors projected in a multi-dimensional space mathematically. Because of the cosine similarity, even if two comparable documents are separated by the Euclidean distance (due to the size of the documents), they are likely to be oriented closer together. This conclude that smaller the angle, cosine similarity will be higher.
+
+
+![working](https://user-images.githubusercontent.com/82112139/184529453-9d05683a-1f19-4d24-b700-55b478ef7d47.jpg)
+
+
 
 # LIMITATIONS: -
 
