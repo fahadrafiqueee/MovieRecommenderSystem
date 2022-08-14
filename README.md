@@ -7,6 +7,9 @@ For example, if a user likes "Spider Man", we can recommend "Tom Holland" movies
 
 Firstly, the user's preferences, the user's interest, the user's personal information, such as the age, or sometimes the history of the user. This data is represented by the user vector. Secondly, the product-related information is called the item vector. The element vector contains the properties(features) of product which is movies in the system, then this can be used by to calculate the similarity between them. The recommendations of movies are calculated using cosine similarity. If 'A' is the user vector and 'B' is an element vector, the cosine similarity.
 
+# DataSet Link: 
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
+
 # PROBLEM STATEMENT: - 
 Many other apps, like Netflix, are all about connecting users to the movies they enjoy. It is therefore necessary to supply users with what they require. As a result, it is vital to understand what the user requires, which can be accomplished through recommendation algorithms. This improves the user experience.
 
