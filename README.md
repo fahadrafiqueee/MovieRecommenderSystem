@@ -2,13 +2,13 @@
 The main aim of this project is to combine multiple services and open-source tools to make a movie recommendation system to provide users with accurate movie recommendations based on the content of a particular movie.
 
 This project works on a filtering based on the description or some data provided for this product. This recommendation system finds the similarity between products based on their context or description. The user's history is taken into account to find similar products that you may like.
-
-For example, if a user likes "Spider Man", we can recommend "Tom Holland" movies or movies of the "Action" genre to him which is quite effective. In the content based filtering, mainly two types of data are used in this filtering.
-
 Firstly, the user's preferences, the user's interest, the user's personal information, such as the age, or sometimes the history of the user. This data is represented by the user vector. Secondly, the product-related information is called the item vector. The element vector contains the properties(features) of product which is movies in the system, then this can be used by to calculate the similarity between them. The recommendations of movies are calculated using cosine similarity. If 'A' is the user vector and 'B' is an element vector, the cosine similarity.
 
-# DataSet Link: 
-https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
+# DataSet Link and some other files: -
+Dataset - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
+
+Two files from juypter notebook will be dumped in a form of pkl (i.e.Similarity.pkl and movies_list.pkl).
+These files are used in the recommendation system.
 
 # PROBLEM STATEMENT: - 
 Many other apps, like Netflix, are all about connecting users to the movies they enjoy. It is therefore necessary to supply users with what they require. As a result, it is vital to understand what the user requires, which can be accomplished through recommendation algorithms. This improves the user experience.
