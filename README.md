@@ -56,7 +56,7 @@ Vectorization - Vectorization is a jargon term for a traditional method of turni
 ![4](https://user-images.githubusercontent.com/82112139/184529445-00cfadb2-ab57-40e4-910f-206555b6ead1.gif)
 
 
-#Working and Implementation of Cosine Similarity: -
+# Working and Implementation of Cosine Similarity: -
 Cosine similarity is a metric for determining how similar documents are regardless of size. It estimates the cosine of the angle formed by two vectors projected in a multi-dimensional space mathematically. Because of the cosine similarity, even if two comparable documents are separated by the Euclidean distance (due to the size of the documents), they are likely to be oriented closer together. This conclude that smaller the angle, cosine similarity will be higher.
 
 
