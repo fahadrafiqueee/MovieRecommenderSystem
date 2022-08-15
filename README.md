@@ -23,7 +23,9 @@ Imagine a scenario where a person wants to enjoy their weekend by watching a sui
 In this recommendation system, two datasets of Tmdb_5000_movies & Tmdb_5000_credits have been used which we can find on Kaggle.
 Tmdb_5000_movies contain 5000 movie names along with movie, Budget, language, overview, title, popularity, tagline, status (released or not), keywords, genres, production company, name of the directors etc.
 Tmdb_5000_credits contain movie_id, cast, crew.
-#DATA PREPROCESSING Data preprocessing, a component of information preparation, describes any form of processing performed on data to prepare it for one more processing procedure. it's traditionally been a very important preliminary step for the info science process. Data preprocessing transforms the info into a format that's more easily and effectively processed in data processing, machine learning and other data science tasks.
+
+# DATA PREPROCESSING 
+Data preprocessing, a component of information preparation, describes any form of processing performed on data to prepare it for one more processing procedure. it's traditionally been a very important preliminary step for the info science process. Data preprocessing transforms the info into a format that's more easily and effectively processed in data processing, machine learning and other data science tasks.
 
 The key steps in data preprocessing: -
 
