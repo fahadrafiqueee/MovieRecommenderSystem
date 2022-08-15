@@ -1,4 +1,4 @@
-# MOVIES-RECOMMENDATION-SYSTEM
+# MOVIE-RECOMMENDATION-SYSTEM
 The main aim of this project is to combine multiple services and open-source tools to make a movie recommendation system to provide users with accurate movie recommendations based on the content of a particular movie.
 
 This project works on a filtering based on the description or some data provided for this product. This recommendation system finds the similarity between products based on their context or description. The user's history is taken into account to find similar products that you may like.
